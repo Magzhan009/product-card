@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="p-0 m-0 flex bg-slate-600 height-screen items-center justify-center min-h-screen"
+  >
+    <!-- Sign-up form start -->
+    <div
+      class="container w-[450px] h-[800px] md:h-[500px] md:w-[700px] bg-white align-center flex flex-col-reverse md:flex-row justify-center height-screen items-center justify-center w-11/12 rounded-lg shadow-lg p-6 size-110"
+    >
+      <div class="first">
+        <h1 class="font-bold text-5xl pb-5">Stay updated!</h1>
+
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul>
+          <li class="flex gap-3 pt-5">
+            <img class="w-5" src="assets/images/icon-success.svg" /> Product
+            discovery and building what matters
+          </li>
+          <li class="flex gap-3">
+            <img class="w-5" src="assets/images/icon-success.svg" /> Measuring
+            to ensure updates are a success
+          </li>
+          <li class="flex gap-3">
+            <img class="w-5" src="assets/images/icon-success.svg" /> And much
+            more!
+          </li>
+        </ul>
+
+        <h4 class="font-bold pt-5">Email address</h4>
+        <div class="bottom flex flex-col gap-5">
+          <input
+            class="border-[1px] border-gray-500 rounded-sm p-3"
+            type="email"
+            placeholder="email@company.com"
+          />
+
+          <a href="page.html">
+            <button class="text-white bg-slate-950 rounded-sm p-3 w-[350px]">
+              Subscribe to monthly newsletter
+            </button>
+          </a>
+        </div>
+      </div>
+      <img
+        class="w-[450px] h-[350px] md:size-100"
+        src="./assets/images/illustration-sign-up-desktop.svg"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
